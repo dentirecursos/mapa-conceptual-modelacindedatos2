@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Modelado de Datos","children":[{"content":"1. Conceptos B&#xe1;sicos","children":[{"content":"Dato / Informaci&#xf3;n: Hechos almacenados para inferir nueva informaci&#xf3;n.","children":[],"payload":{"tag":"li","lines":"2,3"}},{"content":"Entidad: Objeto de negocio, persona, lugar o evento.","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"Atributo: Caracter&#xed;stica, propiedad o componente descriptivo.","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"Relaci&#xf3;n: Correspondencia o v&#xed;nculo l&#xf3;gico entre entidades.","children":[],"payload":{"tag":"li","lines":"5,6"}}],"payload":{"tag":"h2","lines":"1,2"}},{"content":"2. Importancia","children":[{"content":"Plano arquitect&#xf3;nico estructurado","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"Reduce errores costosos","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"Mejora comunicaci&#xf3;n (Analistas/T&#xe9;cnicos)","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"Garantiza precisi&#xf3;n en informes y m&#xe9;tricas","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"h2","lines":"6,7"}},{"content":"3. Caracter&#xed;sticas","children":[{"content":"Integraci&#xf3;n: Unifica archivos, elimina redundancias.","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"Compartici&#xf3;n: Acceso simult&#xe1;neo multi-usuario.","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Persistencia: Seguridad y almacenamiento permanente.","children":[],"payload":{"tag":"li","lines":"14,15"}}],"payload":{"tag":"h2","lines":"11,12"}},{"content":"4. Evoluci&#xf3;n, Clasificaci&#xf3;n y Tipos","children":[{"content":"Jer&#xe1;rquico: Estructura de &#xe1;rbol (&quot;padre e hijo&quot;).","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Gr&#xe1;fico: Relaciones de varios a varios.","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"Relacional: Tablas enlazadas mediante claves.","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"Entidad-Relaci&#xf3;n (ER): Diagramas visuales (rombos, rect&#xe1;ngulos).","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"Orientado a Objetos: Ideal para bases de datos multimedia.","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"Dimensional: Optimizado para Data Warehouses (Hechos/Dimensiones).","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Semiestructurado: Flexible, documentos variables (JSON/XML).","children":[],"payload":{"tag":"li","lines":"22,23"}}],"payload":{"tag":"h2","lines":"15,16"}},{"content":"5. Niveles de Modelado","children":[{"content":"Modelo Conceptual: Representaci&#xf3;n global de negocio (sin tecnolog&#xed;a).","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"Modelo L&#xf3;gico: Estructura t&#xe9;cnica, tipos de datos y normalizaci&#xf3;n.","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"Modelo F&#xed;sico: Implementaci&#xf3;n real en SGBD, esquemas e &#xed;ndices.","children":[],"payload":{"tag":"li","lines":"26,27"}}],"payload":{"tag":"h2","lines":"23,24"}},{"content":"6. Proceso","children":[{"content":"Identificar objetivos, entidades y propiedades.","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"Definir reglas de negocio y relaciones.","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"Crear modelo conceptual y seleccionar t&#xe9;cnica.","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"Desarrollar modelo l&#xf3;gico (eliminar redundancias).","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"Optimizar dise&#xf1;o f&#xed;sico en SGBD.","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"Revisar, validar y mantener ante evoluci&#xf3;n del negocio.","children":[],"payload":{"tag":"li","lines":"33,34"}}],"payload":{"tag":"h2","lines":"27,28"}},{"content":"7. Herramientas","children":[{"content":"Representaci&#xf3;n t&#xe9;cnica:","children":[{"content":"Diagramas Entidad-Relaci&#xf3;n (DER)","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"Normalizaci&#xf3;n (procedimientos matem&#xe1;ticos)","children":[],"payload":{"tag":"li","lines":"37,38"}}],"payload":{"tag":"li","lines":"35,38"}},{"content":"Software/Servicios:","children":[{"content":"Amazon RDS (Relacional)","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"Amazon Neptune (Grafos)","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"AWS Amplify","children":[],"payload":{"tag":"li","lines":"41,42"}}],"payload":{"tag":"li","lines":"38,42"}}],"payload":{"tag":"h2","lines":"34,35"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
